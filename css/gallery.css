@@ -1,0 +1,42 @@
+.icon_img{
+    height: 2rem;
+    width: auto;
+}
+.gallery_container{
+    width: 500px;
+    margin-top:-2vh;
+}
+.gallery_item{
+    height: 88vh;
+    padding: 1rem;
+    position: relative;
+}
+/* .gallery_item:not(:nth-child(2n)){
+    background-color: red;
+} */
+.gallery_img{
+    height: 100%;
+    width: auto;
+    display: grid;
+}
+.gallery_img img{
+    align-self: center;
+}
+.img_info{
+    position: absolute;
+    bottom: 2rem;
+    }
+.img_title{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.img_info{
+    position: absolute;
+    bottom: 0.5rem;
+}
+@media screen and (max-width:600px) {
+    .gallery_container{
+        width:100vw;
+    }
+}
